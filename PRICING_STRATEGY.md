@@ -23,6 +23,17 @@ A Karoo não é apenas um bot de comandos; ela é uma IA de última geração (K
 
 ---
 
+### ⚙️ O Motor Karooma: Orquestração Inteligente de LLMs (KaaS)
+*Eficiência invisível: Qualidade máxima com custo otimizado.*
+
+Sob o capô, a Karoo utiliza uma infraestrutura de **Orquestração Dinâmica de Modelos** (via OpenRouter), garantindo que cada tarefa seja processada pela IA mais capaz para aquele contexto específico:
+- **Tarefas Rápidas (Sincronia/Agendas):** Processadas por modelos ultra-velozes (como Gemini 3 Flash), garantindo resposta instantânea.
+- **Consultoria Complexa (Planejamento/Análise):** Para roteiros de viagem ou conselhos de cuidado, o sistema escala automaticamente para modelos de raciocínio profundo (como DeepSeek-V3 ou Claude 3.5 Sonnet).
+- **Transcrição de Alta Fidelidade:** Integração do Whisper com modelos de correção gramatical para garantir que o áudio vire texto impecável.
+- **Otimização de Custo:** A inteligência da Karoo seleciona o modelo com o melhor custo-benefício de tokens, permitindo manter os preços dos planos competitivos sem perder a qualidade premium.
+
+---
+
 ## 📦 Detalhamento dos Pacotes
 
 ### 1. Plano SOSSEGO (O "Pé na Porta")
