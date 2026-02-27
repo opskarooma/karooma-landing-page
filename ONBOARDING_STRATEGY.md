@@ -11,11 +11,26 @@ Após o pagamento/cadastro, o usuário recebe um link direto para o WhatsApp da 
 - **Mensagem Inicial da Karoo:**
   > "Olá, [Nome]! 🦘 Que alegria ter você aqui. Eu sou a Karoo, a nova assistente da sua família. Meu objetivo é tirar o peso da rotina dos seus ombros. Vamos começar?"
 
-### Passo 2: O Perfil Familiar (Configuração Rápida)
-A Karoo faz 3 perguntas rápidas para entender o contexto:
+### Passo 2: O Perfil Familiar & Conexão de Contas
+A Karoo faz 3 perguntas rápidas para entender o contexto e solicita as permissões necessárias:
+
 1. **Membros:** "Quem faz parte da sua rotina central? (Ex: Marido, Esposa, Nome dos filhos)."
-2. **Agenda:** "Qual calendário você usa? (Google ou Apple). Me mande o e-mail para eu solicitar acesso à agenda comum."
+2. **Conexão de Agenda e E-mail (Oauth Seguro):** 
+   > "Para eu gerenciar sua agenda e resumir e-mails da escola, preciso que você me dê um 'crachá' de acesso. Clique no link seguro abaixo para conectar seu Google ou iCloud. É rápido e seus dados ficam blindados pela nossa criptografia."
+   - *Mecânica:* A Karoo envia um link para uma página simples de Oauth (Login com Google/Apple).
+   - *Privacidade:* Explicamos que o acesso é restrito aos escopos de Calendário e Leitura de E-mail (opcional), seguindo o **Selo de Segurança Karoo**.
 3. **Ponto de Dor:** "Qual é a coisa que mais te sobrecarrega hoje? (Ex: Lista de compras, grupos de escola, ou esquecer compromissos)."
+
+---
+
+## 📧 Configurações de E-mail: Por que e Como?
+
+A Karoo solicita acesso ao e-mail para atuar como um **Filtro de Ruído Escolar/Burocrático**.
+
+- **Modo de Requisição:** Nunca pedimos a senha. Pedimos a autorização via Oauth (botão "Entrar com Google").
+- **Filtros Inteligentes:** O usuário pode configurar: "Karoo, só leia e-mails que venham do domínio `@escola.com.br` ou que contenham a palavra 'Boleto'".
+- **Resumo Proativo:** "Recebi um e-mail da escola. O passeio de sexta foi confirmado e o valor é R$ 50. Quer que eu agende o pagamento?"
+- **Segurança:** O acesso é feito via Tokens temporários que o usuário pode revogar a qualquer momento nas configurações do Google/Apple.
 
 ### Passo 3: O Primeiro "Uau" (A Transcrição)
 A Karoo desafia o usuário:
