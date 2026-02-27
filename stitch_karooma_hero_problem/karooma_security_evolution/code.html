@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="pt-br"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Karooma Security &amp; Evolution</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#960ef1",
+                        "background-light": "#f7f5f8",
+                        "background-dark": "#1b1022",
+                    },
+                    fontFamily: {
+                        "display": ["Inter"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-tap-highlight-color: transparent;
+        }
+        .purple-glow {
+            box-shadow: 0 0 20px 2px rgba(150, 14, 241, 0.3);
+        }
+        .glass-card {
+            background: rgba(41, 24, 52, 0.6);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(150, 14, 241, 0.2);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 min-h-screen flex flex-col">
+<!-- Header Navigation -->
+<div class="sticky top-0 z-50 flex items-center bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md p-4 justify-between border-b border-primary/10">
+<div class="text-primary flex size-10 shrink-0 items-center justify-center">
+<span class="material-symbols-outlined text-3xl">shield_person</span>
+</div>
+<h2 class="text-slate-900 dark:text-slate-100 text-lg font-bold leading-tight tracking-tight flex-1 ml-2 font-display">Karooma</h2>
+<div class="flex w-12 items-center justify-end">
+<button class="flex items-center justify-center rounded-lg h-10 w-10 bg-primary/10 text-primary">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+<!-- Hero Section -->
+<main class="flex-1 overflow-y-auto">
+<div class="@container">
+<div class="p-4">
+<div class="relative flex min-h-[420px] flex-col gap-6 bg-cover bg-center bg-no-repeat rounded-xl items-center justify-end p-8 overflow-hidden" data-alt="Digital futuristic shield protection visualization with purple neon glows" style='background-image: linear-gradient(to bottom, rgba(27, 16, 34, 0.2), rgba(27, 16, 34, 0.95)), url("https://lh3.googleusercontent.com/aida-public/AB6AXuCl-gRuw8DnMocBNOxtZODqV6zJ0otlc2DlRxP462mTIrVUqZb946S8Lx9L602tYNvc3FsYhqG2Ave5W0HY-wX7nZoHh41zJA7mGalcvcn7-oQf-LdkmrceFDRazFfqVFRR-0C1-pNpLHNN1yTT3FhEcDhcP1jJ3ML3bEhYsGLU7D4gXNBP5ELFzRZGfva7RlPYOuzkB0zlshVuSg8VcOfWOnsVl_Dzxvb535fRFFVjTMaejAw11XxAiPyx4Lh7y0w_wWN3HVaU9L0");'>
+<div class="flex flex-col gap-3 text-center z-10">
+<span class="text-primary font-bold tracking-widest text-xs uppercase">Inteligência &amp; Privacidade</span>
+<h1 class="text-slate-100 text-4xl font-black leading-tight tracking-tight font-display">
+                            Segurança e Evolução
+                        </h1>
+<p class="text-slate-300 text-base font-normal leading-relaxed max-w-xs mx-auto">
+                            O mordomo digital que protege e organiza o futuro da sua família com isolamento de dados.
+                        </p>
+</div>
+<button class="z-10 flex min-w-[200px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-12 px-6 bg-primary text-white text-base font-bold shadow-lg shadow-primary/40 active:scale-95 transition-transform">
+<span class="truncate">Conhecer Ecossistema</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Security Section (Escudo de Segurança) -->
+<div class="px-4 py-8">
+<div class="flex items-center gap-2 mb-6">
+<span class="material-symbols-outlined text-primary">verified_user</span>
+<h2 class="text-slate-900 dark:text-slate-100 text-2xl font-extrabold tracking-tight font-display">Escudo de Segurança</h2>
+</div>
+<div class="@container">
+<div class="glass-card rounded-xl p-1 overflow-hidden purple-glow">
+<div class="flex flex-col">
+<div class="w-full aspect-video bg-cover bg-center rounded-lg" data-alt="Modern server room with purple light accents representing data security" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBxCtCUw6eY1vjUpytzNo73v0MS4dApLDrvLV3lcU7E1IGOFCuCevYKL3Gj9baz4yx8kO45KWSlFZEHOqBbB4Zg98lDPzV13S4BhWx-6ykRMGOjGn3dmjt7eysd1t5f_7MenRdNF5tmYgDXRN_UQarrAft4nnI8EyoKfeeTRF_aXz8hHXAJLb7-ToSbkH4XPvoUB2EsA2mZgISEtRdJJrYoH0m3-bc5bgRoj1HjTpd7_e0pT4eb3UiKKTpZ_cV2LqKjRpf_i_AltI0");'></div>
+<div class="flex flex-col p-5 gap-4">
+<div>
+<h3 class="text-slate-100 text-xl font-bold mb-2">Bolha Familiar</h3>
+<p class="text-slate-400 text-sm leading-relaxed">
+                                    Isolamento total de dados via <span class="text-primary font-semibold">Gmail de Operações</span>. Seus dados familiares nunca se misturam com a web pública.
+                                </p>
+</div>
+<div class="grid grid-cols-2 gap-3">
+<div class="bg-primary/5 border border-primary/20 rounded-lg p-3 text-center">
+<span class="material-symbols-outlined text-primary mb-1">lock</span>
+<p class="text-[10px] uppercase font-bold text-slate-300">Criptografia</p>
+</div>
+<div class="bg-primary/5 border border-primary/20 rounded-lg p-3 text-center">
+<span class="material-symbols-outlined text-primary mb-1">cloud_off</span>
+<p class="text-[10px] uppercase font-bold text-slate-300">Isolamento</p>
+</div>
+</div>
+<button class="w-full flex items-center justify-center rounded-lg h-12 bg-primary text-white font-bold text-sm">
+                                Ativar Proteção
+                            </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Evolution Tree Section -->
+<div class="px-4 py-8 bg-primary/5">
+<div class="flex items-center gap-2 mb-8">
+<span class="material-symbols-outlined text-primary">account_tree</span>
+<h2 class="text-slate-900 dark:text-slate-100 text-2xl font-extrabold tracking-tight font-display">Árvore da Evolução</h2>
+</div>
+<div class="relative pl-8 border-l-2 border-dashed border-primary/30 ml-4 space-y-12">
+<!-- Level 1 -->
+<div class="relative">
+<div class="absolute -left-[41px] top-0 size-10 rounded-full bg-background-dark border-4 border-primary flex items-center justify-center text-primary z-10">
+<span class="material-symbols-outlined text-sm">radio_button_checked</span>
+</div>
+<div class="glass-card p-5 rounded-xl">
+<h4 class="text-primary font-bold text-sm uppercase tracking-wider mb-1">Nível 01</h4>
+<h3 class="text-slate-100 text-lg font-bold mb-2">Básico</h3>
+<p class="text-slate-400 text-sm">Organização inicial de documentos e agenda familiar centralizada.</p>
+</div>
+</div>
+<!-- Level 2 -->
+<div class="relative">
+<div class="absolute -left-[41px] top-0 size-10 rounded-full bg-background-dark border-4 border-slate-700 flex items-center justify-center text-slate-500 z-10">
+<span class="material-symbols-outlined text-sm">lock_clock</span>
+</div>
+<div class="bg-slate-800/40 p-5 rounded-xl border border-slate-700/50">
+<h4 class="text-slate-500 font-bold text-sm uppercase tracking-wider mb-1">Nível 02</h4>
+<h3 class="text-slate-300 text-lg font-bold mb-2">Automação</h3>
+<p class="text-slate-500 text-sm">O mordomo começa a antecipar pagamentos e renovações burocráticas.</p>
+</div>
+</div>
+<!-- Level 3 -->
+<div class="relative">
+<div class="absolute -left-[41px] top-0 size-10 rounded-full bg-background-dark border-4 border-slate-700 flex items-center justify-center text-slate-500 z-10">
+<span class="material-symbols-outlined text-sm">auto_awesome</span>
+</div>
+<div class="bg-slate-800/40 p-5 rounded-xl border border-slate-700/50">
+<h4 class="text-slate-500 font-bold text-sm uppercase tracking-wider mb-1">Nível 03</h4>
+<h3 class="text-slate-300 text-lg font-bold mb-2">Co-criação</h3>
+<p class="text-slate-500 text-sm">Inteligência plena atuando no planejamento estratégico do futuro da família.</p>
+</div>
+<!-- Glow effect for the path -->
+<div class="absolute -left-[32px] top-10 bottom-0 w-0.5 bg-gradient-to-b from-primary to-transparent opacity-50"></div>
+</div>
+</div>
+</div>
+<div class="h-24"></div>
+</main>
+<!-- Bottom Navigation Bar -->
+<div class="fixed bottom-0 left-0 right-0 z-50 flex gap-2 border-t border-primary/10 bg-background-light dark:bg-background-dark px-4 pb-6 pt-3 shadow-2xl">
+<a class="flex flex-1 flex-col items-center justify-center gap-1 text-slate-400" href="#">
+<span class="material-symbols-outlined">home</span>
+<p class="text-[10px] font-medium leading-normal">Início</p>
+</a>
+<a class="flex flex-1 flex-col items-center justify-center gap-1 text-primary" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1">shield_with_heart</span>
+<p class="text-[10px] font-medium leading-normal">Segurança</p>
+</a>
+<a class="flex flex-1 flex-col items-center justify-center gap-1 text-slate-400" href="#">
+<span class="material-symbols-outlined">monitoring</span>
+<p class="text-[10px] font-medium leading-normal">Evolução</p>
+</a>
+<a class="flex flex-1 flex-col items-center justify-center gap-1 text-slate-400" href="#">
+<span class="material-symbols-outlined">person_outline</span>
+<p class="text-[10px] font-medium leading-normal">Perfil</p>
+</a>
+</div>
+</body></html>

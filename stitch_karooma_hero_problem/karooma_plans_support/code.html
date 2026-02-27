@@ -1,0 +1,226 @@
+<html class="dark"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#960ef1",
+                        "background-light": "#f7f5f8",
+                        "background-dark": "#1b1022",
+                    },
+                    fontFamily: {
+                        "display": ["Inter"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        .glass-card {
+            background: rgba(150, 14, 241, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(150, 14, 241, 0.1);
+        }
+        .gradient-border-popular {
+            border: 2px solid #960ef1;
+            box-shadow: 0 0 15px rgba(150, 14, 241, 0.3);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 antialiased">
+<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden pb-20">
+<!-- Header -->
+<header class="sticky top-0 z-50 flex items-center bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md p-4 justify-between border-b border-slate-200 dark:border-primary/20">
+<div class="text-primary flex size-10 shrink-0 items-center justify-center rounded-full bg-primary/10">
+<span class="material-symbols-outlined">arrow_back</span>
+</div>
+<h1 class="text-slate-900 dark:text-slate-100 text-lg font-bold leading-tight tracking-tight flex-1 text-center pr-10">Karooma Plans</h1>
+</header>
+<!-- Hero Section -->
+<section class="px-4 pt-8 pb-4">
+<h2 class="text-slate-900 dark:text-slate-100 text-3xl font-black leading-tight tracking-tight">Focus on what matters.</h2>
+<p class="text-slate-600 dark:text-slate-400 mt-2 text-base">Choose the perfect level of care for your family's daily organization.</p>
+</section>
+<!-- Pricing Cards -->
+<div class="flex flex-col gap-6 px-4 py-6">
+<!-- Sossego Plan -->
+<div class="flex flex-col gap-4 rounded-xl border border-slate-200 dark:border-primary/20 bg-white dark:bg-slate-900/40 p-6">
+<div class="flex flex-col gap-1">
+<h3 class="text-primary text-sm font-bold uppercase tracking-wider">Sossego</h3>
+<p class="flex items-baseline gap-1">
+<span class="text-slate-900 dark:text-slate-100 text-4xl font-black leading-tight tracking-tighter">€19</span>
+<span class="text-slate-500 dark:text-slate-400 text-sm font-medium">/month</span>
+</p>
+<p class="text-slate-500 dark:text-slate-400 text-xs mt-1 italic">Essential peace of mind.</p>
+</div>
+<div class="flex flex-col gap-3 my-2">
+<div class="text-sm font-normal flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-sm">check_circle</span>
+                        Family Calendar Sync
+                    </div>
+<div class="text-sm font-normal flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-sm">check_circle</span>
+                        Daily Task Reminders
+                    </div>
+<div class="text-sm font-normal flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-sm">check_circle</span>
+                        1 Family Admin Account
+                    </div>
+</div>
+<button class="w-full bg-slate-900 dark:bg-slate-100 text-white dark:text-background-dark py-3 rounded-lg font-bold text-sm transition-transform active:scale-95 flex items-center justify-center gap-2">
+<span>Get Started</span>
+<span class="material-symbols-outlined text-xs">payments</span>
+</button>
+</div>
+<!-- Fluxo Plan (Most Popular) -->
+<div class="relative flex flex-col gap-4 rounded-xl gradient-border-popular bg-white dark:bg-primary/5 p-6 overflow-hidden">
+<div class="absolute top-0 right-0">
+<div class="bg-primary text-white text-[10px] font-black px-4 py-1 rounded-bl-lg uppercase tracking-widest">Most Popular</div>
+</div>
+<div class="flex flex-col gap-1">
+<h3 class="text-primary text-sm font-bold uppercase tracking-wider">Fluxo</h3>
+<p class="flex items-baseline gap-1">
+<span class="text-slate-900 dark:text-slate-100 text-4xl font-black leading-tight tracking-tighter">€39</span>
+<span class="text-slate-500 dark:text-slate-400 text-sm font-medium">/month</span>
+</p>
+<p class="text-slate-500 dark:text-slate-400 text-xs mt-1 italic">The complete digital concierge.</p>
+</div>
+<div class="flex flex-col gap-3 my-2">
+<div class="text-sm font-bold flex items-center gap-3 text-primary">
+<span class="material-symbols-outlined text-sm">add</span>
+                        Everything in Sossego
+                    </div>
+<div class="text-sm font-normal flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-sm">check_circle</span>
+                        Automated Appointment Booking
+                    </div>
+<div class="text-sm font-normal flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-sm">check_circle</span>
+                        Priority WhatsApp Channel
+                    </div>
+<div class="text-sm font-normal flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-sm">check_circle</span>
+                        Up to 5 Family Members
+                    </div>
+</div>
+<button class="w-full bg-primary text-white py-3 rounded-lg font-bold text-sm transition-transform active:scale-95 shadow-lg shadow-primary/20 flex items-center justify-center gap-2">
+<span>Subscribe with Stripe</span>
+<span class="material-symbols-outlined text-xs">arrow_forward</span>
+</button>
+</div>
+<!-- Creator Plan -->
+<div class="flex flex-col gap-4 rounded-xl border border-slate-200 dark:border-primary/20 bg-white dark:bg-slate-900/40 p-6">
+<div class="flex flex-col gap-1">
+<h3 class="text-primary text-sm font-bold uppercase tracking-wider">Creator</h3>
+<p class="flex items-baseline gap-1">
+<span class="text-slate-900 dark:text-slate-100 text-4xl font-black leading-tight tracking-tighter">€79</span>
+<span class="text-slate-500 dark:text-slate-400 text-sm font-medium">/month</span>
+</p>
+<p class="text-slate-500 dark:text-slate-400 text-xs mt-1 italic">Personal Butler at your service.</p>
+</div>
+<div class="flex flex-col gap-3 my-2">
+<div class="text-sm font-bold flex items-center gap-3 text-primary">
+<span class="material-symbols-outlined text-sm">add</span>
+                        Full Digital Concierge
+                    </div>
+<div class="text-sm font-normal flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-sm">check_circle</span>
+                        24/7 Personal Butler Support
+                    </div>
+<div class="text-sm font-normal flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-sm">check_circle</span>
+                        Custom Household Automations
+                    </div>
+<div class="text-sm font-normal flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-sm">check_circle</span>
+                        Unlimited Family Members
+                    </div>
+</div>
+<button class="w-full bg-slate-900 dark:bg-slate-100 text-white dark:text-background-dark py-3 rounded-lg font-bold text-sm transition-transform active:scale-95 flex items-center justify-center gap-2">
+<span>Become a Member</span>
+<span class="material-symbols-outlined text-xs">diamond</span>
+</button>
+</div>
+</div>
+<!-- Support Section -->
+<section class="px-4 py-8 bg-primary/5">
+<h2 class="text-slate-900 dark:text-slate-100 text-2xl font-bold leading-tight tracking-tight mb-2">Support &amp; Contact</h2>
+<p class="text-slate-600 dark:text-slate-400 mb-6">Need help choosing? Our team is available for a Conversa Direta.</p>
+<div class="grid grid-cols-2 gap-4">
+<a class="flex flex-col items-center justify-center p-4 rounded-xl border border-emerald-500/20 bg-gradient-to-br from-emerald-500/10 to-emerald-500/5 group" href="#">
+<div class="w-12 h-12 rounded-full bg-emerald-500 flex items-center justify-center mb-2 shadow-lg shadow-emerald-500/20">
+<svg class="w-6 h-6 text-white" fill="currentColor" viewbox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"></path></svg>
+</div>
+<span class="text-xs font-bold text-emerald-600 dark:text-emerald-400">WhatsApp</span>
+</a>
+<a class="flex flex-col items-center justify-center p-4 rounded-xl border border-blue-500/20 bg-gradient-to-br from-blue-500/10 to-blue-500/5 group" href="#">
+<div class="w-12 h-12 rounded-full bg-blue-500 flex items-center justify-center mb-2 shadow-lg shadow-blue-500/20">
+<svg class="w-6 h-6 text-white" fill="currentColor" viewbox="0 0 24 24"><path d="M11.944 0A12 12 0 000 12a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0012 0zM7.02 12.138l1.483.487 3.567-2.238-2.553 2.887.003.002.001.001-.065 1.114 1.001-.89 1.63 1.198 2.887-1.522L12.55 18.2l-1.443.018L7.02 12.138z"></path></svg>
+</div>
+<span class="text-xs font-bold text-blue-600 dark:text-blue-400">Telegram</span>
+</a>
+</div>
+<div class="mt-8 flex items-center gap-4 p-4 rounded-xl border border-slate-200 dark:border-primary/20 bg-white dark:bg-slate-900/40">
+<div class="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">mail</span>
+</div>
+<div>
+<p class="text-sm font-bold">Email us</p>
+<p class="text-xs text-slate-500">hello@karooma.com</p>
+</div>
+</div>
+</section>
+<!-- FAQ Sneak Peak -->
+<section class="px-4 py-8">
+<h3 class="text-slate-900 dark:text-slate-100 text-xl font-bold mb-4">Common Questions</h3>
+<div class="flex flex-col gap-3">
+<details class="group rounded-lg border border-slate-200 dark:border-primary/10 bg-white dark:bg-slate-900/40 p-3">
+<summary class="flex items-center justify-between text-sm font-medium cursor-pointer list-none">
+                        How does the Stripe billing work?
+                        <span class="material-symbols-outlined text-sm group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<p class="mt-2 text-xs text-slate-500 leading-relaxed">Payments are processed securely via Stripe. You can cancel or change your plan anytime through your customer portal.</p>
+</details>
+<details class="group rounded-lg border border-slate-200 dark:border-primary/10 bg-white dark:bg-slate-900/40 p-3">
+<summary class="flex items-center justify-between text-sm font-medium cursor-pointer list-none">
+                        Is my data secure?
+                        <span class="material-symbols-outlined text-sm group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<p class="mt-2 text-xs text-slate-500 leading-relaxed">We use banking-level encryption to ensure your family's personal details and schedule remain private and safe.</p>
+</details>
+</div>
+</section>
+<!-- Bottom Navigation Bar -->
+<nav class="fixed bottom-0 left-0 right-0 z-50 flex border-t border-slate-200 dark:border-primary/20 bg-white/90 dark:bg-background-dark/90 backdrop-blur-lg px-4 pb-6 pt-2">
+<a class="flex flex-1 flex-col items-center justify-center gap-1 text-slate-400 dark:text-slate-500" href="#">
+<span class="material-symbols-outlined">home</span>
+<p class="text-[10px] font-medium leading-normal">Home</p>
+</a>
+<a class="flex flex-1 flex-col items-center justify-center gap-1 text-primary" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1">credit_card</span>
+<p class="text-[10px] font-bold leading-normal">Plans</p>
+</a>
+<a class="flex flex-1 flex-col items-center justify-center gap-1 text-slate-400 dark:text-slate-500" href="#">
+<span class="material-symbols-outlined">chat</span>
+<p class="text-[10px] font-medium leading-normal">Support</p>
+</a>
+<a class="flex flex-1 flex-col items-center justify-center gap-1 text-slate-400 dark:text-slate-500" href="#">
+<span class="material-symbols-outlined">person</span>
+<p class="text-[10px] font-medium leading-normal">Profile</p>
+</a>
+</nav>
+</div>
+</body></html>

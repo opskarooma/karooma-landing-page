@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html class="dark" lang="pt-br">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>KAROOMA - Seu Mordomo Digital Familiar</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#a413ec",
+                        "accent": "#0bda76",
+                        "background-light": "#f7f5f8",
+                        "background-dark": "#0d0612",
+                        "card-dark": "#1a0b26",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+        .glass-card { background: rgba(164, 19, 236, 0.05); backdrop-filter: blur(10px); border: 1px solid rgba(164, 19, 236, 0.1); }
+        .gradient-border-popular { border: 2px solid #a413ec; box-shadow: 0 0 15px rgba(164, 19, 236, 0.3); }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 antialiased">
+
+<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+    <!-- Header -->
+    <header class="flex items-center bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md sticky top-0 z-50 p-4 justify-between border-b border-primary/10">
+        <div class="flex size-10 shrink-0 items-center justify-center text-primary">
+            <span class="material-symbols-outlined text-3xl">menu</span>
+        </div>
+        <h2 class="text-slate-900 dark:text-slate-100 text-xl font-black tracking-tight flex-1 text-center italic uppercase">KAROOMA</h2>
+        <div class="flex w-10 items-center justify-end">
+            <button class="flex size-10 items-center justify-center rounded-full bg-primary/10 text-primary">
+                <span class="material-symbols-outlined">account_circle</span>
+            </button>
+        </div>
+    </header>
+
+    <main class="flex-1">
+        <!-- Hero Section -->
+        <section class="@container">
+            <div class="p-0 @[480px]:p-4">
+                <div class="relative flex min-h-[520px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:rounded-xl items-center justify-center p-6 text-center overflow-hidden" style='background-image: linear-gradient(to bottom, rgba(13, 6, 18, 0.7) 0%, rgba(13, 6, 18, 0.95) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuDdrW4OS52A92cncv1OP9P1_4waXw4z9XNxlQlWbp0OPdHPA7ALLLIW7wcFgn_QK56E8s01mj3AR_9AQyDpetJBP8pMnETL8IMg-pmW8-itK4G3rXf0j_pOojT80lelA-6WWxeNOFXBY1P7MK9v-U9uoZsJ6hTkeEwTXZaGVs6oShuXBSmhgOQ4ySNMWKgh_741zNFpiucqjmHRrjOf0HPEAj3VeN9eOmWwToZCtCzc9_QBpCrglb0vHozq5TvW_Ky_UJP2lzZG2aA");'>
+                    <div class="absolute -top-24 -right-24 size-64 bg-primary/20 blur-[100px] rounded-full"></div>
+                    <div class="absolute -bottom-24 -left-24 size-64 bg-accent/10 blur-[100px] rounded-full"></div>
+                    <div class="flex flex-col gap-4 max-w-md z-10">
+                        <span class="inline-block self-center px-3 py-1 rounded-full bg-primary/20 text-primary text-xs font-bold uppercase tracking-widest border border-primary/30">Mordomo Digital</span>
+                        <h1 class="text-slate-100 text-4xl font-black leading-[1.1] tracking-tight @[480px]:text-6xl uppercase italic">Recupere <span class="text-primary">4 horas</span> da sua semana</h1>
+                        <p class="text-slate-300 text-base font-medium leading-relaxed max-w-[320px] mx-auto">O seu braço direito para organizar a rotina e salvar a harmonia familiar.</p>
+                    </div>
+                    <button class="z-10 flex w-full max-w-[300px] cursor-pointer items-center justify-center rounded-xl h-14 bg-accent text-background-dark text-lg font-black uppercase tracking-tight shadow-[0_0_20px_rgba(11,218,118,0.4)] hover:scale-[1.02] transition-transform">Quero meu Alívio Agora</button>
+                    <div class="flex items-center gap-2 mt-4 z-10 opacity-70">
+                        <span class="material-symbols-outlined text-accent text-sm">check_circle</span>
+                        <span class="text-xs font-medium text-slate-400 tracking-wide uppercase">Teste grátis por 7 dias</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Family Assistant Hub -->
+        <section class="px-4 py-12 bg-slate-900/20">
+            <div class="flex flex-col gap-2 mb-8 text-center">
+                <h2 class="text-slate-100 text-2xl font-black tracking-tight uppercase italic">O Centro de Comando da Família</h2>
+                <div class="h-1 w-12 bg-primary rounded-full mx-auto"></div>
+                <p class="text-slate-400 text-sm mt-2 italic">A Karoo não é só sua. Ela é o braço direito do casal.</p>
+            </div>
+            
+            <div class="grid gap-4">
+                <!-- Family Sync -->
+                <div class="p-5 rounded-2xl bg-card-dark border border-primary/20 flex gap-4 items-start">
+                    <span class="material-symbols-outlined text-primary text-3xl">hub</span>
+                    <div class="flex-1">
+                        <h3 class="text-slate-100 font-bold mb-1 uppercase text-sm">Ponte Familiar</h3>
+                        <p class="text-slate-400 text-xs leading-relaxed">"Karoo, avisa que vou chegar 15min atrasado e já coloca o leite na lista de compras." Ela comunica, organiza e sincroniza.</p>
+                    </div>
+                </div>
+                <!-- Smart List -->
+                <div class="p-5 rounded-2xl bg-card-dark border border-accent/20 flex gap-4 items-start">
+                    <span class="material-symbols-outlined text-accent text-3xl">shopping_cart_checkout</span>
+                    <div class="flex-1">
+                        <h3 class="text-slate-100 font-bold mb-1 uppercase text-sm">Lista & Radar de Ofertas</h3>
+                        <p class="text-slate-400 text-xs leading-relaxed">Peça produtos e a Karoo monitora o melhor preço para você. Economia de tempo e dinheiro no piloto automático.</p>
+                    </div>
+                </div>
+                <!-- Agenda -->
+                <div class="p-5 rounded-2xl bg-card-dark border border-blue-500/20 flex gap-4 items-start">
+                    <span class="material-symbols-outlined text-blue-500 text-3xl">calendar_month</span>
+                    <div class="flex-1">
+                        <h3 class="text-slate-100 font-bold mb-1 uppercase text-sm">Agenda Sem Conflitos</h3>
+                        <p class="text-slate-400 text-xs leading-relaxed">"Karoo, marca o pediatra na quarta e avisa ele." Uma agenda única, atualizada em tempo real para o casal.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Evolution Section -->
+        <section class="px-4 py-12 bg-gradient-to-b from-background-dark to-card-dark border-t border-primary/5">
+            <div class="flex flex-col gap-2 mb-8">
+                <h2 class="text-slate-100 text-2xl font-black tracking-tight uppercase italic">Evolução Karooma</h2>
+                <div class="h-1 w-12 bg-accent rounded-full"></div>
+                <p class="text-slate-400 text-sm mt-2">Um ecossistema que cresce com a sua família.</p>
+            </div>
+            <div class="space-y-6">
+                <div class="relative pl-8 border-l-2 border-primary/30">
+                    <div class="absolute -left-[9px] top-0 size-4 rounded-full bg-primary shadow-[0_0_10px_rgba(164,19,236,0.5)]"></div>
+                    <h4 class="text-slate-100 font-bold uppercase text-xs tracking-wider text-primary">Próximos Pacotes</h4>
+                    <p class="text-slate-300 text-sm font-semibold mt-1">Gestão de Saúde & Documentos</p>
+                    <p class="text-slate-500 text-xs mt-1 leading-relaxed">Organização de exames, histórico vacinal e alertas de renovação de documentos em ambiente seguro.</p>
+                </div>
+                <div class="relative pl-8 border-l-2 border-accent/30">
+                    <div class="absolute -left-[9px] top-0 size-4 rounded-full bg-accent shadow-[0_0_10px_rgba(11,218,118,0.5)]"></div>
+                    <h4 class="text-slate-100 font-bold uppercase text-xs tracking-wider text-accent">Personalização</h4>
+                    <p class="text-slate-300 text-sm font-semibold mt-1">Ferramentas Sob Medida</p>
+                    <p class="text-slate-500 text-xs mt-1 leading-relaxed">Módulos personalizados para sua rotina, seguindo as rígidas Diretrizes de Segurança Karoo.</p>
+                </div>
+            </div>
+            <div class="mt-10 p-4 rounded-xl bg-primary/5 border border-primary/20">
+                <div class="flex items-center gap-3 mb-2">
+                    <span class="material-symbols-outlined text-primary">shield_lock</span>
+                    <span class="text-slate-100 text-[10px] font-black uppercase tracking-[0.2em]">Selo de Segurança Karoo</span>
+                </div>
+                <p class="text-slate-400 text-[11px] leading-snug">Toda nova ferramenta é auditada. Seus dados nunca saem do seu controle. Evolução sem exposição.</p>
+            </div>
+        </section>
+
+        <!-- Plans Section -->
+        <section class="px-4 py-12 bg-slate-900/40">
+            <h2 class="text-slate-100 text-3xl font-black tracking-tight uppercase italic text-center mb-8">Nossos Planos</h2>
+            <div class="flex flex-col gap-6">
+                <!-- Sossego -->
+                <div class="flex flex-col gap-4 rounded-xl border border-primary/20 bg-card-dark p-6">
+                    <h3 class="text-primary text-sm font-bold uppercase tracking-wider">Sossego</h3>
+                    <p class="flex items-baseline gap-1">
+                        <span class="text-slate-100 text-4xl font-black">R$ 99</span>
+                        <span class="text-slate-500 text-sm">/mês</span>
+                    </p>
+                    <div class="space-y-3 text-sm text-slate-300">
+                        <div class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Agenda Sincronizada</div>
+                        <div class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Lista de Compras Compartilhada</div>
+                    </div>
+                    <button class="w-full bg-slate-100 text-background-dark py-3 rounded-lg font-bold uppercase">Assinar</button>
+                </div>
+                <!-- Fluxo -->
+                <div class="relative flex flex-col gap-4 rounded-xl gradient-border-popular bg-primary/5 p-6 overflow-hidden">
+                    <div class="absolute top-0 right-0 bg-primary text-white text-[10px] font-black px-4 py-1 rounded-bl-lg uppercase">Popular</div>
+                    <h3 class="text-primary text-sm font-bold uppercase tracking-wider">Fluxo</h3>
+                    <p class="flex items-baseline gap-1">
+                        <span class="text-slate-100 text-4xl font-black">R$ 199</span>
+                        <span class="text-slate-500 text-sm">/mês</span>
+                    </p>
+                    <div class="space-y-3 text-sm text-slate-300">
+                        <div class="flex items-center gap-2 text-primary font-bold"><span class="material-symbols-outlined text-sm">add</span> Tudo do Sossego</div>
+                        <div class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Radar de Ofertas Ativo</div>
+                        <div class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Canal Prioritário WhatsApp</div>
+                    </div>
+                    <button class="w-full bg-primary text-white py-3 rounded-lg font-bold uppercase shadow-lg shadow-primary/20">Assinar agora</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Bottom Nav -->
+    <nav class="sticky bottom-0 z-50 flex gap-2 border-t border-primary/10 bg-background-dark/95 backdrop-blur-lg px-4 pb-6 pt-3 shadow-2xl">
+        <a class="flex flex-1 flex-col items-center justify-center gap-1 text-accent" href="#"><span class="material-symbols-outlined">home</span><p class="text-[10px] font-bold uppercase">Início</p></a>
+        <a class="flex flex-1 flex-col items-center justify-center gap-1 text-slate-500" href="#"><span class="material-symbols-outlined">payments</span><p class="text-[10px] font-bold uppercase">Planos</p></a>
+        <a class="flex flex-1 flex-col items-center justify-center gap-1 text-slate-500" href="#"><span class="material-symbols-outlined">shield</span><p class="text-[10px] font-bold uppercase">Segurança</p></a>
+        <a class="flex flex-1 flex-col items-center justify-center gap-1 text-slate-500" href="#"><span class="material-symbols-outlined">login</span><p class="text-[10px] font-bold uppercase">Entrar</p></a>
+    </nav>
+</div>
+
+</body>
+</html>
