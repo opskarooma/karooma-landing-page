@@ -43,6 +43,8 @@ Sob o capô, a Karoo utiliza uma infraestrutura de **Orquestração Dinâmica de
 - **Entrega de Valor:** Eliminar o "esqueci de anotar/comprar".
 - **Recursos Detalhados:**
     - **Interface:** Chat via WhatsApp ou Telegram (Entrada: Texto e Áudio).
+    - **Karoo Intelligence:** Acesso à IA para pesquisas rápidas e dúvidas do dia a dia.
+    - **Orquestração KaaS (Básico):** Uso de modelos de alta velocidade para respostas instantâneas.
     - **Transcrição:** Uso do Whisper para converter áudios do usuário em texto.
     - **Agenda Comum:** Sincronização de um calendário compartilhado (Google/Apple) para o casal.
     - **Lista de Compras:** Gestão de uma lista única acessível por ambos.
@@ -55,6 +57,7 @@ Sob o capô, a Karoo utiliza uma infraestrutura de **Orquestração Dinâmica de
 - **Entrega de Valor:** Reduzir a carga mental e economizar em compras recorrentes.
 - **Recursos Detalhados:**
     - **Tudo do Plano Sossego.**
+    - **Orquestração KaaS (Avançado):** Acesso automático a modelos especialistas (Claude/DeepSeek) para consultas complexas de saúde, educação ou planejamento.
     - **Radar de Ofertas:** Monitoramento automático de preços para itens da lista de compras (Fraldas, Leite, etc) com avisos de queda de preço.
     - **Resumo de Grupos Escolares:** Você encaminha as mensagens do grupo e a Karoo extrai datas, materiais e eventos importantes.
     - **Transcrição Ilimitada:** Prioridade no processamento de áudios longos.
@@ -67,6 +70,7 @@ Sob o capô, a Karoo utiliza uma infraestrutura de **Orquestração Dinâmica de
 - **Entrega de Valor:** Delegar a burocracia e ter uma assistente que "fala" com você.
 - **Recursos Detalhados:**
     - **Tudo do Plano Fluxo.**
+    - **Orquestração KaaS (Premium):** Prioridade máxima de processamento e acesso aos modelos mais potentes do mercado sem restrições.
     - **Karoo Voice (Saída):** A Karoo responde com áudios curtos (TTS), ideal para ouvir enquanto dirige ou cuida das crianças.
     - **Gestão de Documentos:** Alertas preventivos para renovação de documentos (RG, CNH, Passaporte) e datas de saúde (vacinas, exames recorrentes).
     - **Módulos Personalizados:** Criação de um fluxo de automação exclusivo para a necessidade específica da sua casa.
