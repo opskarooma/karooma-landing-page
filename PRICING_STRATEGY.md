@@ -11,6 +11,18 @@ Este documento consolida a estrutura de monetização e os níveis de serviço d
 
 ---
 
+### 🔄 Benefício Transversal: Karoo Intelligence (IA Everywhere)
+*Disponível em todos os planos como base da interação.*
+
+A Karoo não é apenas um bot de comandos; ela é uma IA de última geração (KaaS) integrada à rotina familiar. O usuário tem acesso a:
+- **Pesquisa Contextual:** "Karoo, onde tem uma farmácia 24h aberta agora?" ou "Quais são os melhores parques infantis nesta região?"
+- **Consultoria de Cuidado:** "Como tirar mancha de canetinha do sofá?" ou "Sugestões de lanche saudável para a lancheira escolar."
+- **Síntese de Conhecimento:** "Resuma para mim as principais mudanças na lei de cadeirinhas de carro."
+- **Modo 'Brainstorm':** Ajuda para planejar festas de aniversário, roteiros de viagem em família ou cardápios semanais.
+- **Aprendizado de Contexto:** A Karoo entende o histórico da família para dar respostas cada vez mais precisas e personalizadas.
+
+---
+
 ## 📦 Detalhamento dos Pacotes
 
 ### 1. Plano SOSSEGO (O "Pé na Porta")
