@@ -14,37 +14,40 @@ Este documento consolida a estrutura de monetização e os níveis de serviço d
 ## 📦 Detalhamento dos Pacotes
 
 ### 1. Plano SOSSEGO (O "Pé na Porta")
-*Ideal para famílias que precisam organizar o básico sem complicação.*
+*Foco: Organização passiva e sincronia básica.*
 
 - **Valor:** **R$ 19,00 / mês**
-- **Recursos Inclusos:**
-    - Interface via WhatsApp/Telegram.
-    - Transcrição de Áudios (Whisper) limitada.
-    - Agenda Familiar Sincronizada (2 usuários).
-    - Lista de Compras Compartilhada.
-    - Protocolo de Confirmação (Loop de segurança).
+- **Entrega de Valor:** Eliminar o "esqueci de anotar/comprar".
+- **Recursos Detalhados:**
+    - **Interface:** Chat via WhatsApp ou Telegram (Entrada: Texto e Áudio).
+    - **Transcrição:** Uso do Whisper para converter áudios do usuário em texto.
+    - **Agenda Comum:** Sincronização de um calendário compartilhado (Google/Apple) para o casal.
+    - **Lista de Compras:** Gestão de uma lista única acessível por ambos.
+    - **Loop de Segurança:** A Karoo sempre confirma o que entendeu antes de agendar ou listar.
 
 ### 2. Plano FLUXO (O "Melhor Valor")
-*Ideal para o dia a dia intenso, onde a IA atua de forma proativa.*
+*Foco: Inteligência ativa e economia de tempo/dinheiro.*
 
 - **Valor:** **R$ 49,00 / mês**
-- **Recursos Inclusos:**
+- **Entrega de Valor:** Reduzir a carga mental e economizar em compras recorrentes.
+- **Recursos Detalhados:**
     - **Tudo do Plano Sossego.**
-    - Transcrição de Áudios ilimitada.
-    - **Radar de Ofertas Ativo:** Monitoramento de preços de itens essenciais.
-    - **Resumo de Grupos:** Resumos inteligentes de grupos de escola e família.
-    - **Detecção de Incerteza:** A Karoo pergunta se não entender algo devido a ruído.
+    - **Radar de Ofertas:** Monitoramento automático de preços para itens da lista de compras (Fraldas, Leite, etc) com avisos de queda de preço.
+    - **Resumo de Grupos Escolares:** Você encaminha as mensagens do grupo e a Karoo extrai datas, materiais e eventos importantes.
+    - **Transcrição Ilimitada:** Prioridade no processamento de áudios longos.
+    - **Ponte Familiar Ativa:** Envio de mensagens curtas de alinhamento para o parceiro(a) com um clique.
 
 ### 3. Plano TOTAL (O "Concierge Digital")
-*Experiência completa com suporte multimodal e evolução personalizada.*
+*Foco: Gestão de vida 360º e interface multimodal.*
 
 - **Valor:** **R$ 99,00 / mês**
-- **Recursos Inclusos:**
+- **Entrega de Valor:** Delegar a burocracia e ter uma assistente que "fala" com você.
+- **Recursos Detalhados:**
     - **Tudo do Plano Fluxo.**
-    - **Karoo Voice (Multimodal):** Respostas da Karoo em áudio (TTS) para ouvir no carro.
-    - **Gestão de Documentos:** Alertas de prazos (vacinas, exames, renovações).
-    - **Suporte Prioritário:** Canal direto para dúvidas e ajustes de rotina.
-    - **Co-criação Beta:** Acesso a novas ferramentas antes do lançamento oficial.
+    - **Karoo Voice (Saída):** A Karoo responde com áudios curtos (TTS), ideal para ouvir enquanto dirige ou cuida das crianças.
+    - **Gestão de Documentos:** Alertas preventivos para renovação de documentos (RG, CNH, Passaporte) e datas de saúde (vacinas, exames recorrentes).
+    - **Módulos Personalizados:** Criação de um fluxo de automação exclusivo para a necessidade específica da sua casa.
+    - **Canal de Co-criação:** Linha direta para sugerir e testar novas ferramentas do ecossistema Karooma.
 
 ---
 
